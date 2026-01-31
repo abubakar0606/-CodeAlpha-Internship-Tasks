@@ -1,23 +1,41 @@
-Network Sniffer
-Overview
-This project is a network sniffer tool implemented in Python. It captures and analyzes network traffic, providing detailed information about each packet. The tool utilizes the Npcap library for packet capture on Windows systems.
+**Network Sniffer**
+**Overview**
 
-Features
-Captures network packets in real-time.
-Provides detailed information about each packet, including source and destination IP addresses, protocol, packet length, time of capture, TTL, flags, and more.
-Supports analysis of various protocols such as TCP, UDP, and ICMP.
-Displays source and destination MAC addresses for Ethernet packets.
-Supports capturing and analyzing fragmented IP packets.
-Provides TCP-specific information such as sequence numbers, acknowledgment numbers, and TCP flags.
-Installation
-Install the required dependencies:
+This project is a Basic Network Sniffer developed in Python. It captures and analyzes live network traffic and displays important packet details in real time.
+The tool uses the Scapy library for packet capturing and analysis on Windows systems with Npcap support.
+
+**Features**
+
+Captures network packets in real time.
+
+Displays source and destination IP addresses.
+
+Shows protocol type (TCP, UDP, ICMP).
+
+Displays packet length, capture time, TTL, and flags.
+
+Shows source and destination MAC addresses for Ethernet packets.
+
+Supports fragmented IP packet analysis.
+
+Provides TCP details such as sequence number, acknowledgment number, and TCP flags.
+
+**Installation**
+**Install required Python library:**
 pip install scapy
-Install Npcap:
-Visit the Npcap website and download the appropriate installer for your system.
-Run the installer and follow the installation instructions.
-Usage
-Navigate to the project directory:
-cd network-sniffer
-Run the network sniffer script:
+
+**Install Npcap (for Windows):**
+
+1. Visit the official Npcap website and download the installer.
+2. Run the installer and complete the setup process.
+3. Restart your system after installation.
+
+**Usage
+Navigate to the project directory:**
+cd CodeAlpha_BasicNetworkSniffer
+
+**Run the network sniffer script:**
 python sniffer.py
-The script will start capturing network packets and display detailed information about each packet in real-time.
+
+
+**The program will start capturing live network packets and will display detailed information for each packet on the terminal in real time.**
