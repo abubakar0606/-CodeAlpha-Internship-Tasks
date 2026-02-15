@@ -7,7 +7,7 @@ This repository contains the implementation of a Network Intrusion Detection Sys
 1.  Clone the repository:
     
     ```bash
-    git clone https://github.com/ahmedelgendy3/CodeAlpha_Network_Intrusion_Detection_System
+    git clone https://https://github.com/abubakar0606/CodeAlpha-Internship-Tasks/blob/main/CodeAlpha_Network_Intrusion_Detection
     ```
     
 2.  Navigate to the project directory:
